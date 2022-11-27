@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2? family=Outfit:wght@600&display=swap');
+
+html{
+    background-color: rgb(13,26,45);
+}
+
+.card{
+    width: 25%;
+    margin-left: 37.5%;
+    background-color: rgb(21,39,63);
+    margin-top: 6%;
+    border-radius: 5%;
+}
+.equilibrium{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+.theme{
+    color: white;
+    margin-left: 10%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+}
+
+.description{
+    width: 90%;
+    margin-left: 10%;
+    font-size: 17px;
+    color: rgb(51,69,100);
+    font-family: 'Outfit', sans-serif;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.information img{
+    padding-right: 5%;
+}
+.information p{
+    margin-left: 20%;
+}
+.information .value{
+    color: rgb(19,216,206);
+}
+.information .time{
+    color: rgb(51,69,100);
+}
+
+
+hr{
+    width: 80%;
+    margin-left: 10%;
+    border-color: rgb(51,69,100);
+    border-top: rgb(51,69,100) 1px;
+}
+
+.infoCreator{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.infoCreator img{
+    width: 25%;
+    margin-left: 30%;
+    align-self: center;
+    display: grid;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.infoCreator .creation{
+    width: 200%;
+    margin-left: -25%;
+    color: rgb(51,69,100);
+}
+.name{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: -50%;
+    margin-top: 16%;
+    font-size: 14px;
+}
